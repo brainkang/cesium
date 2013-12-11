@@ -305,12 +305,12 @@ define([
 
 //      scene.debugCommandFilter = function(command) { return command.owner.instance === model; };
 
-// /*
+ /*
         scene.getPrimitives().add(new DebugModelMatrixPrimitive({
             modelMatrix : modelMatrix,
             scale : 100000.0,
             width : 10.0
         }));
-// */
+ */
     }
 });
