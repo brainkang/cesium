@@ -199,8 +199,9 @@ define([
 
             scene.skyBox = skyBox;
             scene.skyAtmosphere = new SkyAtmosphere(ellipsoid);
+            scene.skyAtmosphere.show = false;
             scene.sun = new Sun();
-            scene.moon = new Moon();
+            //scene.moon = new Moon();
 
             //Set the base imagery layer
             var imageryProvider = options.imageryProvider;

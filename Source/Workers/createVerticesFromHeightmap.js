@@ -27,7 +27,7 @@ define([
         }
 
         var vertices = new Float32Array(arrayWidth * arrayHeight * numberOfAttributes);
-        transferableObjects.push(vertices.buffer);
+        //transferableObjects.push(vertices.buffer);
 
         parameters.ellipsoid = Ellipsoid.clone(parameters.ellipsoid);
         parameters.extent = Extent.clone(parameters.extent);
